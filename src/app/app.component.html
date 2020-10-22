@@ -1,0 +1,6 @@
+<hello name="{{ name }}"></hello>
+<p (click)="onPhraseClicked()">
+	Start editing to see some magic happen :)
+</p>
+
+<input class="demo" (keyup)="onKeyUp(nameInput.value)" [value]="name" #nameInput>
